@@ -1,0 +1,50 @@
+body {
+  background-color: burlywood;
+  padding: 20px;
+}
+
+/* navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+/* hero */
+.hero {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hero-btn {
+  margin-top: 20px;
+  border: 2px solid black;
+  width: 160px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.hero-img {
+  width: 40%;
+}
